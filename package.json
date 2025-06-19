@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullcalendar/bootstrap": "^6.1.17",
+    "@fullcalendar/common": "^5.11.5",
+    "@fullcalendar/core": "^6.1.17",
+    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/react": "^6.1.17",
     "@react-three/drei": "^10.3.0",
     "@react-three/fiber": "^9.1.2",
     "@testing-library/dom": "^10.4.0",

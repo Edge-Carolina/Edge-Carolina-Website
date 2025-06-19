@@ -8,6 +8,10 @@
 //   return <primitive object={scene} scale={2} />;
 // }
 
+import instagramIcon from '../assets/instagram.svg';
+import heelLifeIcon from '../assets/unc.svg';
+import gmailIcon from '../assets/gmail.svg';
+
 const Home = () => {
 
 
@@ -23,6 +27,28 @@ const Home = () => {
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                         <a href="/about" className="px-6 sm:px-8 py-2 sm:py-3 bg-[#13294B] hover:bg-[#13294B]/90 transition-colors duration-300 rounded-lg font-semibold text-sm sm:text-base md:text-lg lg:text-xl">About Us</a>
                         <a href="/events" className="px-6 sm:px-8 py-2 sm:py-3 border-2 border-white hover:bg-white hover:text-[#4B9CD3] transition-colors duration-300 rounded-lg font-semibold text-sm sm:text-base md:text-lg lg:text-xl">Upcoming Events</a>
+                    </div>
+
+                    {/* Contact Us Area */}
+                    <div className="mt-6 flex flex-col items-start">
+                        <span className="font-semibold text-lg sm:text-xl mb-2">Contact Us</span>
+                        <div className="flex gap-4">
+                            {/* Instagram */}
+                            <a href="/" className="flex items-center gap-2 text-white hover:text-[#E1306C] transition-colors" aria-label="Instagram">
+                                <img src={instagramIcon} alt="Instagram" className="w-7 h-7" />
+                                <span className="hidden sm:inline">Instagram</span>
+                            </a>
+                            {/* HeelLife */}
+                            <a href="/" className="flex items-center gap-2 text-white hover:text-[#4B9CD3] transition-colors" aria-label="HeelLife">
+                                <img src={heelLifeIcon} alt="HeelLife" className="w-7 h-7" />
+                                <span className="hidden sm:inline">HeelLife</span>
+                            </a>
+                            {/* Email */}
+                            <a href="/" className="flex items-center gap-2 text-white hover:text-[#13294B] transition-colors" aria-label="Email">
+                                <img src={gmailIcon} alt="Email" className="w-7 h-7" />
+                                <span className="hidden sm:inline">Email</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 {/* <div className="w-[55%] h-[80vh]">
