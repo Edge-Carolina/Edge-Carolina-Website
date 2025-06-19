@@ -61,7 +61,7 @@ const executiveTeam = [
 
 const About = () => {
   return (
-    <section className="min-h-screen w-full bg-[#4B9CD3] pt-32 pb-16 overflow-y-auto relative">
+    <section className="min-h-screen w-full bg-lightnavy pt-32 pb-16 overflow-y-auto relative">
       {/* Cloud animations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <Cloud className="absolute top-[10%] left-0 w-[20vw] h-[10vw] animate-cloud-1" />
@@ -81,18 +81,18 @@ const About = () => {
         <Cloud className="absolute top-[50%] right-[40%] w-[22vw] h-[11vw] animate-cloud-15" />
       </div>
 
-      <div className="flex flex-col items-start justify-start min-h-screen text-white px-4 sm:px-6 md:px-8 lg:px-8 xl:px-8 max-w-[125rem] mx-auto relative z-10">
+      <div className="flex flex-col items-start justify-start min-h-screen text-terqoizse px-4 sm:px-6 md:px-8 lg:px-8 xl:px-8 max-w-[125rem] mx-auto relative z-10">
         {/* About Section */}
         <div className="w-full max-w-5xl mx-auto mb-32">
-          <div className="bg-white/10 backdrop-blur-md rounded-3xl p-16 border border-white/20 shadow-2xl shadow-black/10 hover:bg-white/15 transition-all duration-300">
-            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-16 tracking-tight text-center bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent leading-[1.2] pb-4">
+          <div className="bg-terqoizse/10 backdrop-blur-md rounded-3xl p-16 border border-terqoizse/20 shadow-2xl shadow-black/10 hover:bg-terqoizse/15 transition-all duration-300">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-16 tracking-tight text-center bg-gradient-to-r from-terqoizse to-terqoizse/80 bg-clip-text text-transparent leading-[1.2] pb-4">
               About Edge Carolina
             </h2>
             <div className="space-y-12">
-              <p className="text-xl sm:text-2xl md:text-3xl text-white/90 leading-relaxed">
+              <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
-              <p className="text-xl sm:text-2xl md:text-3xl text-white/90 leading-relaxed">
+              <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
@@ -112,13 +112,13 @@ const About = () => {
                   key={`first-${index}`}
                   className="flex-none w-[280px] cursor-pointer transform transition-transform hover:scale-105"
                 >
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 h-[380px] flex flex-col items-center hover:bg-white/15 transition-colors">
-                    <div className="w-48 h-48 rounded-full bg-white/20 mb-6 overflow-hidden">
+                  <div className="bg-terqoizse/10 backdrop-blur-sm rounded-2xl p-6 h-[380px] flex flex-col items-center hover:bg-terqoizse/15 transition-colors">
+                    <div className="w-48 h-48 rounded-full bg-terqoizse/20 mb-6 overflow-hidden">
                       {/* Replace with actual image when available */}
-                      <div className="w-full h-full bg-white/10"></div>
+                      <div className="w-full h-full bg-terqoizse/10"></div>
                     </div>
                     <h3 className="text-2xl font-semibold mb-2">{member.name}</h3>
-                    <p className="text-lg text-white/80">{member.position}</p>
+                    <p className="text-lg text-terqoizse/80">{member.position}</p>
                   </div>
                 </div>
               ))}
@@ -128,20 +128,20 @@ const About = () => {
                   key={`second-${index}`}
                   className="flex-none w-[280px] cursor-pointer transform transition-transform hover:scale-105"
                 >
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 h-[380px] flex flex-col items-center hover:bg-white/15 transition-colors">
-                    <div className="w-48 h-48 rounded-full bg-white/20 mb-6 overflow-hidden">
+                  <div className="bg-terqoizse/10 backdrop-blur-sm rounded-2xl p-6 h-[380px] flex flex-col items-center hover:bg-terqoizse/15 transition-colors">
+                    <div className="w-48 h-48 rounded-full bg-terqoizse/20 mb-6 overflow-hidden">
                       {/* Replace with actual image when available */}
-                      <div className="w-full h-full bg-white/10"></div>
+                      <div className="w-full h-full bg-terqoizse/10"></div>
                     </div>
                     <h3 className="text-2xl font-semibold mb-2">{member.name}</h3>
-                    <p className="text-lg text-white/80">{member.position}</p>
+                    <p className="text-lg text-terqoizse/80">{member.position}</p>
                   </div>
                 </div>
               ))}
             </div>
             {/* Gradient fade effects */}
-            <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#4B9CD3] to-transparent pointer-events-none"></div>
-            <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#4B9CD3] to-transparent pointer-events-none"></div>
+            <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-lightnavy to-transparent pointer-events-none"></div>
+            <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-lightnavy to-transparent pointer-events-none"></div>
           </div>
         </div>
       </div>

@@ -16,8 +16,8 @@ const Home = () => {
 
 
   return (
-    <section className="min-h-screen w-full bg-[#4B9CD3] fixed inset-0 pt-16">
-        <div className="flex flex-col items-start justify-center min-h-[calc(100vh-4rem)] text-white px-4 sm:px-6 md:px-8 lg:px-8 xl:px-8 max-w-[125rem] mx-auto relative">
+    <section className="min-h-screen w-full bg-lightnavy fixed inset-0 pt-16">
+        <div className="flex flex-col items-start justify-center min-h-[calc(100vh-4rem)] text-terqoizse px-4 sm:px-6 md:px-8 lg:px-8 xl:px-8 max-w-[125rem] mx-auto relative">
             <div className="flex items-center gap-12 w-full">
                 <div className="max-w-[40%]">
                     <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-2 sm:mb-4">Edge Carolina</h2>
@@ -25,8 +25,8 @@ const Home = () => {
                     <p className="text-base sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl mb-6 sm:mb-8 max-w-3xl">Input Some Description Here</p>
 
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                        <a href="/about" className="px-6 sm:px-8 py-2 sm:py-3 bg-[#13294B] hover:bg-[#13294B]/90 transition-colors duration-300 rounded-lg font-semibold text-sm sm:text-base md:text-lg lg:text-xl">About Us</a>
-                        <a href="/events" className="px-6 sm:px-8 py-2 sm:py-3 border-2 border-white hover:bg-white hover:text-[#4B9CD3] transition-colors duration-300 rounded-lg font-semibold text-sm sm:text-base md:text-lg lg:text-xl">Upcoming Events</a>
+                        <a href="/about" className="px-6 sm:px-8 py-2 sm:py-3 bg-terqoizse hover:bg-skyblue transition-colors duration-300 rounded-lg font-semibold text-sm sm:text-base md:text-lg lg:text-xl text-lightnavy">About Us</a>
+                        <a href="/events" className="px-6 sm:px-8 py-2 sm:py-3 border-2 border-terqoizse hover:bg-terqoizse hover:text-lightnavy transition-colors duration-300 rounded-lg font-semibold text-sm sm:text-base md:text-lg lg:text-xl text-terqoizse">Upcoming Events</a>
                     </div>
 
                     {/* Contact Us Area */}
@@ -34,17 +34,17 @@ const Home = () => {
                         <span className="font-semibold text-lg sm:text-xl mb-2">Contact Us</span>
                         <div className="flex gap-4">
                             {/* Instagram */}
-                            <a href="/" className="flex items-center gap-2 text-white hover:text-[#E1306C] transition-colors" aria-label="Instagram">
+                            <a href="/" className="flex items-center gap-2 text-terqoizse hover:text-[#E1306C] transition-colors" aria-label="Instagram">
                                 <img src={instagramIcon} alt="Instagram" className="w-7 h-7" />
                                 <span className="hidden sm:inline">Instagram</span>
                             </a>
                             {/* HeelLife */}
-                            <a href="/" className="flex items-center gap-2 text-white hover:text-[#4B9CD3] transition-colors" aria-label="HeelLife">
+                            <a href="/" className="flex items-center gap-2 text-terqoizse hover:text-skyblue transition-colors" aria-label="HeelLife">
                                 <img src={heelLifeIcon} alt="HeelLife" className="w-7 h-7" />
                                 <span className="hidden sm:inline">HeelLife</span>
                             </a>
                             {/* Email */}
-                            <a href="/" className="flex items-center gap-2 text-white hover:text-[#13294B] transition-colors" aria-label="Email">
+                            <a href="/" className="flex items-center gap-2 text-terqoizse hover:text-deepnavy transition-colors" aria-label="Email">
                                 <img src={gmailIcon} alt="Email" className="w-7 h-7" />
                                 <span className="hidden sm:inline">Email</span>
                             </a>

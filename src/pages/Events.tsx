@@ -53,23 +53,23 @@ const Events = () => {
   };
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-[#4B9CD3] py-8">
-      <h1 className="text-3xl font-bold mb-4 text-center">Upcoming Events</h1>
+    <div className="flex flex-col items-center min-h-screen bg-lightnavy py-8">
+      <h1 className="text-3xl font-bold mb-4 text-center text-terqoizse">Upcoming Events</h1>
       <div className="w-full flex justify-center mt-4">
-        <div className="bg-white rounded-xl shadow-lg p-6 max-w-full overflow-auto relative" style={{ minWidth: 320, width: '90vw', maxWidth: 1200 }}>
+        <div className="bg-gray-100 rounded-xl shadow-lg p-6 max-w-full overflow-auto relative" style={{ minWidth: 320, width: '90vw', maxWidth: 1200 }}>
           {/* Legend inside the card, centered and aligned with calendar header */}
           <div className="flex flex-wrap justify-center items-center gap-4 mb-4">
             <div className="flex items-center gap-2">
-              <span className="inline-block w-4 h-4 rounded" style={{ background: '#2563eb' }}></span>
-              <span>Weekly Meetings</span>
+              <span className="inline-block w-4 h-4 rounded" style={{ background: '#211e5e' }}></span>
+              <span className="text-black">Weekly Meetings</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="inline-block w-4 h-4 rounded" style={{ background: '#a21caf' }}></span>
-              <span>Edge Labs</span>
+              <span className="inline-block w-4 h-4 rounded" style={{ background: '#23215e' }}></span>
+              <span className="text-black">Edge Labs</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="inline-block w-4 h-4 rounded" style={{ background: '#f59e42' }}></span>
-              <span>Public Events</span>
+              <span className="inline-block w-4 h-4 rounded" style={{ background: '#8eb8d1' }}></span>
+              <span className="text-black">Public Events</span>
             </div>
           </div>
           <FullCalendar
@@ -78,6 +78,12 @@ const Events = () => {
             events={eventList}
             eventClick={handleEventClick}
           />
+          <style>{`
+            /* Override FullCalendar text color to black */
+            .fc, .fc * {
+              color: #000 !important;
+            }
+          `}</style>
           {/* Modal for event details */}
           {modalOpen && modalEvent && (
             <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-40">
