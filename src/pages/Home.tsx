@@ -16,7 +16,12 @@ const Home = () => {
 
 
   return (
-    <section className="min-h-screen w-full bg-lightnavy fixed inset-0 pt-16">
+    <section
+      className="min-h-screen w-full fixed inset-0 pt-16"
+      style={{
+        background: 'linear-gradient(to bottom, #22335b 0px, #22335b 50%, #415e7c 75%, #8eb8d1 100%)'
+      }}
+    >
         <div className="flex flex-col items-start justify-center min-h-[calc(100vh-4rem)] text-terqoizse px-4 sm:px-6 md:px-8 lg:px-8 xl:px-8 max-w-[125rem] mx-auto relative">
             <div className="flex items-center gap-12 w-full">
                 <div className="max-w-[40%]">
