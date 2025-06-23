@@ -25,7 +25,7 @@ const missionAreas = [
 
 const Mission = () => {
   return (
-    <section className="min-h-screen w-full bg-lightnavy pt-32 pb-16 overflow-y-auto flex items-center justify-center relative">
+    <section className="min-h-screen w-full pt-32 pb-16 overflow-y-auto flex items-center justify-center relative">
       <div className="w-full max-w-5xl mx-auto">
         <div className="bg-terqoizse/10 backdrop-blur-md rounded-3xl p-12 sm:p-16 border border-terqoizse/20 shadow-2xl shadow-black/10 hover:bg-terqoizse/15 transition-all duration-300">
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-16 tracking-tight text-center bg-gradient-to-r from-terqoizse to-terqoizse/80 bg-clip-text text-transparent leading-[1.2] pb-4">

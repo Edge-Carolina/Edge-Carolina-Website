@@ -23,3 +23,21 @@
 #root {
   min-height: 100vh;
 }
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient-bg {
+  background: linear-gradient(135deg, #23345c, #0b9bb2, #1b7898, #106088, #5f8095, #165277, #415976, #7c94a4);
+  background-size: 1600% 1600%;
+  animation: gradientBG 18s ease infinite;
+}

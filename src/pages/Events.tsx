@@ -54,8 +54,7 @@ const Events = () => {
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-lightnavy py-8">
-      <h1 className="text-3xl font-bold mb-4 text-center text-terqoizse">Upcoming Events</h1>
-      <div className="w-full flex justify-center mt-4">
+      <div className="w-full flex justify-center mt-16">
         <div className="bg-gray-100 rounded-xl shadow-lg p-6 max-w-full overflow-auto relative" style={{ minWidth: 320, width: '90vw', maxWidth: 1200 }}>
           {/* Legend inside the card, centered and aligned with calendar header */}
           <div className="flex flex-wrap justify-center items-center gap-4 mb-4">
