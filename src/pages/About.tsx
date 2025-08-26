@@ -15,12 +15,27 @@ const Cloud = ({ className }: { className?: string }) => (
   </svg>
 );
 
-// Executive team data (images are placeholders you can replace)
+// Executive team data with actual profile images and placeholders
 const executiveTeam = [
   {
     name: "Weston Voglesonger",
-    position: "Founder & President",
-    image: "/images/team/weston.jpg"
+    position: "Founder & CEO",
+    image: "/exec_images/weston-voglesonger.jpeg"
+  },
+  {
+    name: "Nate Ward",
+    position: "Chief Communications Officer",
+    image: "/exec_images/nate-ward.jpeg"
+  },
+  {
+    name: "Francisco Vasquez",
+    position: "Treasurer",
+    image: "/exec_images/francisco-vasquez.jpeg"
+  },
+  {
+    name: "Avery Phillips",
+    position: "Social Media and Design Lead",
+    image: "/exec_images/avery-phillips.jpeg"
   },
   {
     name: "Adil",
@@ -28,35 +43,21 @@ const executiveTeam = [
     image: "/images/team/adil.jpg"
   },
   {
+    name: "Aryan Chaudhary",
+    position: "Executive Advisor",
+    image: "/exec_images/aryan-chaudhary.jpeg"
+  },
+  {
+    name: "Will Zellers",
+    position: "Programs Lead — Edge Labs",
+    image: "/exec_images/will-zellers.jpeg"
+  },
+  {
     name: "Veer",
     position: "Chief Financial Officer",
     image: "/images/team/veer.jpg"
   },
-  {
-    name: "Ivan",
-    position: "Programs Lead — Edge Labs",
-    image: "/images/team/ivan.jpg"
-  },
-  {
-    name: "Nate",
-    position: "Marketing & Partnerships",
-    image: "/images/team/nate.jpg"
-  },
-  {
-    name: "Avery",
-    position: "Marketing & Outreach",
-    image: "/images/team/avery.jpg"
-  },
-  {
-    name: "Francisco",
-    position: "Operations & Procurement",
-    image: "/images/team/francisco.jpg"
-  },
-  {
-    name: "You?",
-    position: "Designer / Community Coordinator (Open Role)",
-    image: "/images/team/open-role.jpg"
-  }
+  
 ];
 
 const About = () => {
@@ -178,9 +179,14 @@ const About = () => {
           }
           .animate-scroll {
             animation: scroll 40s linear infinite;
+            will-change: transform;
           }
           .animate-scroll:hover {
             animation-play-state: paused;
+          }
+          /* Smooth scrolling for manual navigation */
+          .animate-scroll {
+            scroll-behavior: smooth;
           }
 
           @keyframes cloud-1 { 0% { transform: translateX(-100%); } 100% { transform: translateX(100vw); } }
