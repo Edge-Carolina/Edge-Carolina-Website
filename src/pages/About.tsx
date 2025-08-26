@@ -15,47 +15,47 @@ const Cloud = ({ className }: { className?: string }) => (
   </svg>
 );
 
-// Executive team data
+// Executive team data (images are placeholders you can replace)
 const executiveTeam = [
   {
-    name: "Hi Weston",
-    position: "Hi Weston",
-    image: "/path-to-image.jpg"
+    name: "Weston Voglesonger",
+    position: "Founder & President",
+    image: "/images/team/weston.jpg"
   },
   {
-    name: "Hi Weston",
-    position: "Hi Weston",
-    image: "/path-to-image.jpg"
+    name: "Adil",
+    position: "Chief Development Officer",
+    image: "/images/team/adil.jpg"
   },
   {
-    name: "Hi Weston",
-    position: "Hi Weston",
-    image: "/path-to-image.jpg"
+    name: "Veer",
+    position: "Chief Financial Officer",
+    image: "/images/team/veer.jpg"
   },
   {
-    name: "Hi Weston",
-    position: "Hi Weston",
-    image: "/path-to-image.jpg"
+    name: "Ivan",
+    position: "Programs Lead — Edge Labs",
+    image: "/images/team/ivan.jpg"
   },
   {
-    name: "Hi Weston",
-    position: "Hi Weston",
-    image: "/path-to-image.jpg"
+    name: "Nate",
+    position: "Marketing & Partnerships",
+    image: "/images/team/nate.jpg"
   },
   {
-    name: "Hi Weston",
-    position: "Hi Weston",
-    image: "/path-to-image.jpg"
+    name: "Avery",
+    position: "Marketing & Outreach",
+    image: "/images/team/avery.jpg"
   },
   {
-    name: "Hi Weston",
-    position: "Hi Weston",
-    image: "/path-to-image.jpg"
+    name: "Francisco",
+    position: "Operations & Procurement",
+    image: "/images/team/francisco.jpg"
   },
   {
-    name: "Hi Weston",
-    position: "Hi Weston",
-    image: "/path-to-image.jpg"
+    name: "You?",
+    position: "Designer / Community Coordinator (Open Role)",
+    image: "/images/team/open-role.jpg"
   }
 ];
 
@@ -90,10 +90,30 @@ const About = () => {
             </h2>
             <div className="space-y-12">
               <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Edge Carolina is a student-run builders’ guild at UNC-Chapel Hill.
+                We exist to make UNC a <span className="font-semibold">building campus</span>—a place where
+                students regularly turn ideas into working projects, not just pitch decks. Founded by
+                Weston Voglesonger, Edge Carolina grew out of the belief that teams need
+                structure, clear roles, and hands-on time to build. Talking is fine; <span className="font-semibold">building is the point</span>.
               </p>
               <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Our flagship program is <span className="font-semibold">Edge Labs</span>: 2-hour sessions with a short lightning talk
+                followed by a focused build sprint. Members work on personal or small-team projects
+                (web apps, tools, hardware concepts), and beginners get scaffolding instead of lectures.
+                We’ve run activities like Agile games, a two-week portfolio site challenge, and hands-on
+                workshops designed to be productive <em>and</em> fun.
+              </p>
+              <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
+                The community is mostly first-years and early builders with basic Python/JS experience,
+                plus a few more advanced mentors. To improve commitment and meeting value, we’ve explored
+                light membership dues, clearer expectations, public showcases, and better social presence
+                (including more interactive Instagram content). The goal: a reliable cadence, higher
+                attendance, and tangible outcomes members can be proud of.
+              </p>
+              <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
+                We run fundraisers (like a Spicy 9 night), organize end-of-semester showcases, and handle the
+                unglamorous ops (hello, P-card logistics) so members can focus on building. If you want to learn by
+                doing—and ship real projects with a small, motivated crew—you’ll fit right in.
               </p>
             </div>
           </div>
@@ -113,12 +133,12 @@ const About = () => {
                   className="flex-none w-[280px] cursor-pointer transform transition-transform hover:scale-105"
                 >
                   <div className="bg-terqoizse/10 backdrop-blur-sm rounded-2xl p-6 h-[380px] flex flex-col items-center hover:bg-terqoizse/15 transition-colors">
-                    <div className="w-48 h-48 rounded-full bg-terqoizse/20 mb-6 overflow-hidden">
+                    <div className="w-48 h-48 rounded-full bg-terqoizse/20 mb-6 overflow-hidden flex items-center justify-center">
                       {/* Replace with actual image when available */}
-                      <div className="w-full h-full bg-terqoizse/10"></div>
+                      <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                     </div>
                     <h3 className="text-2xl font-semibold mb-2">{member.name}</h3>
-                    <p className="text-lg text-terqoizse/80">{member.position}</p>
+                    <p className="text-lg text-terqoizse/80 text-center">{member.position}</p>
                   </div>
                 </div>
               ))}
@@ -129,12 +149,12 @@ const About = () => {
                   className="flex-none w-[280px] cursor-pointer transform transition-transform hover:scale-105"
                 >
                   <div className="bg-terqoizse/10 backdrop-blur-sm rounded-2xl p-6 h-[380px] flex flex-col items-center hover:bg-terqoizse/15 transition-colors">
-                    <div className="w-48 h-48 rounded-full bg-terqoizse/20 mb-6 overflow-hidden">
+                    <div className="w-48 h-48 rounded-full bg-terqoizse/20 mb-6 overflow-hidden flex items-center justify-center">
                       {/* Replace with actual image when available */}
-                      <div className="w-full h-full bg-terqoizse/10"></div>
+                      <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                     </div>
                     <h3 className="text-2xl font-semibold mb-2">{member.name}</h3>
-                    <p className="text-lg text-terqoizse/80">{member.position}</p>
+                    <p className="text-lg text-terqoizse/80 text-center">{member.position}</p>
                   </div>
                 </div>
               ))}
@@ -177,7 +197,7 @@ const About = () => {
           @keyframes cloud-12 { 0% { transform: translateX(100vw); } 100% { transform: translateX(-100%); } }
           @keyframes cloud-13 { 0% { transform: translateX(-100%); } 100% { transform: translateX(100vw); } }
           @keyframes cloud-14 { 0% { transform: translateX(100vw); } 100% { transform: translateX(-100%); } }
-          @keyframes cloud-15 { 0% { transform: translateX(-100%); } 100% { transform: translateX(100vw); } }
+          @keyframes cloud-15 { 0% { transform: translateX(100vw); } 100% { transform: translateX(-100%); } }
 
           .animate-cloud-1 { animation: cloud-1 60s linear infinite; }
           .animate-cloud-2 { animation: cloud-2 80s linear infinite; }
@@ -200,4 +220,4 @@ const About = () => {
   );
 };
 
-export default About; 
+export default About;

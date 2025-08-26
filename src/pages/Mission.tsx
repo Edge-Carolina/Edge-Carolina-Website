@@ -2,24 +2,24 @@ import React from 'react'
 
 const missionAreas = [
   {
-    title: 'Innovative Research',
+    title: 'Make UNC a Building Campus',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur, nisl nisi consectetur nisi, euismod euismod nisi nisi euismod.'
+      'We promote a builder culture where students ship tangible projects—apps, tools, research demos—on a steady cadence. Less talk, more build; visible outcomes over vague intentions.'
   },
   {
-    title: 'Community Engagement',
+    title: 'Edge Labs: Hands-On, Not Lectures',
     description:
-      'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.'
+      'Each session pairs a short lightning talk with a focused build sprint. Beginners get scaffolding and starter repos; advanced members move fast with structure and accountability.'
   },
   {
-    title: 'Educational Excellence',
+    title: 'Community, Accountability, Momentum',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
+      'Clear roles, weekly check-ins, and demos keep teams aligned. We use practical Agile games and two-week sprints to help members form habits that actually stick.'
   },
   {
-    title: 'Sustainable Impact',
+    title: 'Public Showcases & Outreach',
     description:
-      'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?'
+      'We host end-of-semester showcases, run fundraisers, and grow our social presence to celebrate members’ work. A little external pressure—and a cheering section—goes a long way.'
   }
 ];
 
@@ -33,7 +33,7 @@ const Mission = () => {
           </h2>
           <div className="space-y-12">
             {missionAreas.map((area, idx) => (
-              <div key={idx} className="">
+              <div key={idx}>
                 <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4 text-terqoizse/90">
                   {area.title}
                 </h3>
@@ -42,6 +42,18 @@ const Mission = () => {
                 </p>
               </div>
             ))}
+
+            <div className="mt-12 pt-8 border-t border-terqoizse/20">
+              <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-3 text-terqoizse/90">
+                What We’re Changing This Semester
+              </h4>
+              <ul className="list-disc pl-6 text-lg sm:text-xl md:text-2xl text-terqoizse/80 space-y-2">
+                <li>More interactive workshops and Edge Labs sprints (Tuesdays).</li>
+                <li>Public project showcase near the end of the semester.</li>
+                <li>Light dues/commitment experiments to boost consistency and value.</li>
+                <li>Better social content to highlight member progress and recruit beginners.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
