@@ -90,7 +90,7 @@ const About = () => {
             </h2>
             <div className="space-y-12">
               <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
-                Edge Carolina is a student-run builders’ guild at UNC-Chapel Hill.
+                Edge Carolina is a student-run builders’ organization at UNC-Chapel Hill.
                 We exist to make UNC a <span className="font-semibold">building campus</span>—a place where
                 students regularly turn ideas into working projects, not just pitch decks. Founded by
                 Weston Voglesonger, Edge Carolina grew out of the belief that teams need
@@ -102,13 +102,6 @@ const About = () => {
                 (web apps, tools, hardware concepts), and beginners get scaffolding instead of lectures.
                 We’ve run activities like Agile games, a two-week portfolio site challenge, and hands-on
                 workshops designed to be productive <em>and</em> fun.
-              </p>
-              <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
-                The community is mostly first-years and early builders with basic Python/JS experience,
-                plus a few more advanced mentors. To improve commitment and meeting value, we’ve explored
-                light membership dues, clearer expectations, public showcases, and better social presence
-                (including more interactive Instagram content). The goal: a reliable cadence, higher
-                attendance, and tangible outcomes members can be proud of.
               </p>
               <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
                 We run fundraisers (like a Spicy 9 night), organize end-of-semester showcases, and handle the
