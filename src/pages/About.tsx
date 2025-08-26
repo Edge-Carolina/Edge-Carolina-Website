@@ -40,7 +40,7 @@ const executiveTeam = [
   {
     name: "Adil",
     position: "Chief Development Officer",
-    image: "/images/team/adil.jpg"
+    image: "/exec_images/adil-syed.jpeg"
   },
   {
     name: "Aryan Chaudhary",
@@ -53,9 +53,8 @@ const executiveTeam = [
     image: "/exec_images/will-zellers.jpeg"
   },
   {
-    name: "Veer",
+    name: "Veer Goparaju",
     position: "Chief Financial Officer",
-    image: "/images/team/veer.jpg"
   },
   
 ];
@@ -113,7 +112,7 @@ const About = () => {
               </p>
               <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
                 We run fundraisers (like a Spicy 9 night), organize end-of-semester showcases, and handle the
-                unglamorous ops (hello, P-card logistics) so members can focus on building. If you want to learn by
+                unglamorous ops so members can focus on building. If you want to learn by
                 doing—and ship real projects with a small, motivated crew—you’ll fit right in.
               </p>
             </div>
@@ -135,8 +134,11 @@ const About = () => {
                 >
                   <div className="bg-terqoizse/10 backdrop-blur-sm rounded-2xl p-6 h-[380px] flex flex-col items-center hover:bg-terqoizse/15 transition-colors">
                     <div className="w-48 h-48 rounded-full bg-terqoizse/20 mb-6 overflow-hidden flex items-center justify-center">
-                      {/* Replace with actual image when available */}
-                      <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                      {member.image ? (
+                        <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                      ) : (
+                        <div className="w-full h-full bg-terqoizse/20"></div>
+                      )}
                     </div>
                     <h3 className="text-2xl font-semibold mb-2">{member.name}</h3>
                     <p className="text-lg text-terqoizse/80 text-center">{member.position}</p>
@@ -151,8 +153,11 @@ const About = () => {
                 >
                   <div className="bg-terqoizse/10 backdrop-blur-sm rounded-2xl p-6 h-[380px] flex flex-col items-center hover:bg-terqoizse/15 transition-colors">
                     <div className="w-48 h-48 rounded-full bg-terqoizse/20 mb-6 overflow-hidden flex items-center justify-center">
-                      {/* Replace with actual image when available */}
-                      <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                      {member.image ? (
+                        <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                      ) : (
+                        <div className="w-full h-full bg-terqoizse/20"></div>
+                      )}
                     </div>
                     <h3 className="text-2xl font-semibold mb-2">{member.name}</h3>
                     <p className="text-lg text-terqoizse/80 text-center">{member.position}</p>
