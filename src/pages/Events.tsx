@@ -19,12 +19,47 @@ const COLORS = {
  * Times/rooms are placeholders—adjust to confirmed rooms when you have them.
  */
 const eventList: any[] = [
-    // Recurring: Edge Labs (Tuesdays 5–7pm)
+    // Edge Labs (Wednesdays 6–8pm, starting September 10th)
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    daysOfWeek: ['2'], // Tuesday
-    startTime: '17:00',
-    endTime: '19:00',
+    start: '2025-09-10T18:00:00',
+    end: '2025-09-10T20:00:00',
+    color: COLORS.labs,
+    location: 'Phillips Hall (room TBA)',
+    description:
+      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided. First session of the semester.'
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-09-17T18:00:00',
+    end: '2025-09-17T20:00:00',
+    color: COLORS.labs,
+    location: 'Phillips Hall (room TBA)',
+    description:
+      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-09-24T18:00:00',
+    end: '2025-09-24T20:00:00',
+    color: COLORS.labs,
+    location: 'Phillips Hall (room TBA)',
+    description:
+      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-10-01T18:00:00',
+    end: '2025-10-01T20:00:00',
+    color: COLORS.labs,
+    location: 'Phillips Hall (room TBA)',
+    description:
+      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-10-08T18:00:00',
+    end: '2025-10-08T20:00:00',
     color: COLORS.labs,
     location: 'Phillips Hall (room TBA)',
     description:
@@ -52,15 +87,7 @@ const eventList: any[] = [
       'Public demo night. Show what you shipped this semester. Invite friends, faculty, and recruiters.'
   },
 
-  // Example public workshop
-  {
-    title: 'Public Workshop — Agile Games for Builders',
-    start: '2025-02-25T17:00:00',
-    end: '2025-02-25T19:00:00',
-    color: COLORS.public,
-    location: 'Fred Brooks Building (room TBA)',
-    description: 'Try Agile mini-games, then apply them immediately to your project sprint.'
-  }
+
 ];
 
 const Events = () => {

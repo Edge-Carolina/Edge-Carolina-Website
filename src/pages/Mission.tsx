@@ -48,7 +48,7 @@ const Mission = () => {
                 What We’re Changing This Semester
               </h4>
               <ul className="list-disc pl-6 text-lg sm:text-xl md:text-2xl text-terqoizse/80 space-y-2">
-                <li>More interactive workshops and Edge Labs sprints (Tuesdays).</li>
+                <li>Edge Labs every Wednesday at 6:00 PM, starting September 10th.</li>
                 <li>Public project showcase near the end of the semester.</li>
                 <li>Light dues/commitment experiments to boost consistency and value.</li>
                 <li>Better social content to highlight member progress and recruit beginners.</li>
