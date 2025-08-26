@@ -43,7 +43,7 @@ const executiveTeam = [
     image: "/images/team/adil.jpg"
   },
   {
-    name: "Aryan Chaudhary",
+    name: "Aryan Choudhary",
     position: "Executive Advisor",
     image: "/exec_images/aryan-chaudhary.jpeg"
   },
