@@ -94,6 +94,16 @@ const About = () => {
                 We've run activities like Agile games, a two-week portfolio site challenge, and hands-on
                 workshops designed to be productive <em>and</em> fun.
               </p>
+              <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
+                Interested in joining? <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeTfdbI3UA8G9uokHBsZsOMtWNQ7CwIVF2Aloi_fxMNxo6ukw/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold underline hover:text-terqoizse/70 transition-colors"
+                >
+                  Apply for Edge Labs Spring 2026
+                </a> (Applications due January 22nd at 11:59 PM).
+              </p>
             </div>
           </div>
         </div>

@@ -144,6 +144,19 @@ const eventList: any[] = [
     }
   },
 
+  // Edge Lab Applications Deadline
+  {
+    title: 'Edge Lab Applications Due',
+    start: '2025-01-22T23:59:00',
+    end: '2025-01-22T23:59:00',
+    color: COLORS.public,
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSeTfdbI3UA8G9uokHBsZsOMtWNQ7CwIVF2Aloi_fxMNxo6ukw/viewform',
+    extendedProps: {
+      location: 'Online',
+      description: 'Applications for Edge Labs are due at 11:59 PM. Apply here: https://docs.google.com/forms/d/e/1FAIpQLSeTfdbI3UA8G9uokHBsZsOMtWNQ7CwIVF2Aloi_fxMNxo6ukw/viewform'
+    }
+  },
+
   // One-off: Spicy 9 Fundraiser (Mar 31)
   {
     title: 'Spicy 9 Fundraiser Night',
