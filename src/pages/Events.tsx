@@ -19,51 +19,129 @@ const COLORS = {
  * Times/rooms are placeholders—adjust to confirmed rooms when you have them.
  */
 const eventList: any[] = [
-    // Edge Labs (Wednesdays 6–8pm, starting September 10th)
+    // Edge Labs (Wednesdays 6–8pm, starting January 29th, Peabody 2080)
+    // Note: Jan 28 is a Tuesday, so first Wednesday is Jan 29
+    // Excluding March 18 (which is a Tuesday, so not in the list)
+    // Last one is April 22 (Tuesday)
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-09-10T18:00:00',
-    end: '2025-09-10T20:00:00',
+    start: '2025-01-29T18:00:00',
+    end: '2025-01-29T20:00:00',
     color: COLORS.labs,
-    location: 'Phillips Hall (room TBA)',
-    description:
-      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided. First session of the semester.'
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-09-17T18:00:00',
-    end: '2025-09-17T20:00:00',
+    start: '2025-02-05T18:00:00',
+    end: '2025-02-05T20:00:00',
     color: COLORS.labs,
-    location: 'Phillips Hall (room TBA)',
-    description:
-      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-09-24T18:00:00',
-    end: '2025-09-24T20:00:00',
+    start: '2025-02-12T18:00:00',
+    end: '2025-02-12T20:00:00',
     color: COLORS.labs,
-    location: 'Phillips Hall (room TBA)',
-    description:
-      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-10-01T18:00:00',
-    end: '2025-10-01T20:00:00',
+    start: '2025-02-19T18:00:00',
+    end: '2025-02-19T20:00:00',
     color: COLORS.labs,
-    location: 'Phillips Hall (room TBA)',
-    description:
-      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-10-08T18:00:00',
-    end: '2025-10-08T20:00:00',
+    start: '2025-02-26T18:00:00',
+    end: '2025-02-26T20:00:00',
     color: COLORS.labs,
-    location: 'Phillips Hall (room TBA)',
-    description:
-      'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-03-05T18:00:00',
+    end: '2025-03-05T20:00:00',
+    color: COLORS.labs,
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-03-12T18:00:00',
+    end: '2025-03-12T20:00:00',
+    color: COLORS.labs,
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-03-26T18:00:00',
+    end: '2025-03-26T20:00:00',
+    color: COLORS.labs,
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-04-02T18:00:00',
+    end: '2025-04-02T20:00:00',
+    color: COLORS.labs,
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-04-09T18:00:00',
+    end: '2025-04-09T20:00:00',
+    color: COLORS.labs,
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-04-16T18:00:00',
+    end: '2025-04-16T20:00:00',
+    color: COLORS.labs,
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
+    }
+  },
+  {
+    title: 'Edge Labs — Talk + Build Sprint',
+    start: '2025-04-22T18:00:00',
+    end: '2025-04-22T20:00:00',
+    color: COLORS.labs,
+    extendedProps: {
+      location: 'Peabody 2080',
+      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided. Last Edge Lab of the semester.'
+    }
   },
 
   // One-off: Spicy 9 Fundraiser (Mar 31)
@@ -72,8 +150,10 @@ const eventList: any[] = [
     start: '2025-03-31T18:00:00',
     end: '2025-03-31T21:00:00',
     color: COLORS.public,
-    location: 'Spicy 9 (Franklin St.)',
-    description: 'Dine-in fundraiser supporting Edge Carolina programs.'
+    extendedProps: {
+      location: 'Spicy 9 (Franklin St.)',
+      description: 'Dine-in fundraiser supporting Edge Carolina programs.'
+    }
   },
 
   // One-off: End-of-Semester Showcase (Apr 22)
@@ -82,9 +162,10 @@ const eventList: any[] = [
     start: '2025-04-22T18:00:00',
     end: '2025-04-22T20:00:00',
     color: COLORS.public,
-    location: 'Genome Sciences (auditorium TBA)',
-    description:
-      'Public demo night. Show what you shipped this semester. Invite friends, faculty, and recruiters.'
+    extendedProps: {
+      location: 'Genome Sciences (auditorium TBA)',
+      description: 'Public demo night. Show what you shipped this semester. Invite friends, faculty, and recruiters.'
+    }
   },
 
 
@@ -123,6 +204,7 @@ const Events = () => {
           <FullCalendar
             plugins={[dayGridPlugin]}
             initialView="dayGridMonth"
+            initialDate="2025-01-01"
             events={eventList}
             eventClick={handleEventClick}
           />

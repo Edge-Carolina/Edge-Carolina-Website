@@ -42,18 +42,6 @@ const Mission = () => {
                 </p>
               </div>
             ))}
-
-            <div className="mt-12 pt-8 border-t border-terqoizse/20">
-              <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-3 text-terqoizse/90">
-                What We’re Changing This Semester
-              </h4>
-              <ul className="list-disc pl-6 text-lg sm:text-xl md:text-2xl text-terqoizse/80 space-y-2">
-                <li>Edge Labs every Wednesday at 6:00 PM, starting September 10th.</li>
-                <li>Public project showcase near the end of the semester.</li>
-                <li>Light dues/commitment experiments to boost consistency and value.</li>
-                <li>Better social content to highlight member progress and recruit beginners.</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

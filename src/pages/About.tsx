@@ -38,11 +38,6 @@ const executiveTeam = [
     image: "/exec_images/avery-phillips.jpeg"
   },
   {
-    name: "Adil",
-    position: "Chief Development Officer",
-    image: "/exec_images/adil-syed.jpeg"
-  },
-  {
     name: "Aryan Choudhary",
     position: "Executive Advisor",
     image: "/exec_images/aryan-chaudhary.jpeg"
@@ -51,10 +46,6 @@ const executiveTeam = [
     name: "Will Zellers",
     position: "Programs Lead — Edge Labs",
     image: "/exec_images/will-zellers.jpeg"
-  },
-  {
-    name: "Veer Goparaju",
-    position: "Chief Financial Officer",
   },
   
 ];
@@ -100,13 +91,8 @@ const About = () => {
                 Our flagship program is <span className="font-semibold">Edge Labs</span>: 2-hour sessions with a short lightning talk
                 followed by a focused build sprint. Members work on personal or small-team projects
                 (web apps, tools, hardware concepts), and beginners get scaffolding instead of lectures.
-                We’ve run activities like Agile games, a two-week portfolio site challenge, and hands-on
+                We've run activities like Agile games, a two-week portfolio site challenge, and hands-on
                 workshops designed to be productive <em>and</em> fun.
-              </p>
-              <p className="text-xl sm:text-2xl md:text-3xl text-terqoizse/90 leading-relaxed">
-                We run fundraisers (like a Spicy 9 night), organize end-of-semester showcases, and handle the
-                unglamorous ops so members can focus on building. If you want to learn by
-                doing—and ship real projects with a small, motivated crew—you’ll fit right in.
               </p>
             </div>
           </div>
@@ -172,7 +158,7 @@ const About = () => {
               transform: translateX(0);
             }
             100% {
-              transform: translateX(calc(-280px * 8));
+              transform: translateX(calc(-280px * 6));
             }
           }
           .animate-scroll {

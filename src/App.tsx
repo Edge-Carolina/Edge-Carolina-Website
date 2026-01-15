@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Events from './pages/Events';
 import Mission from './pages/Mission';
+import Alumni from './pages/Alumni';
 
 function AppContent() {
   const location = useLocation();
@@ -24,6 +25,7 @@ function AppContent() {
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
         <Route path="/mission" element={<Mission />} />
+        <Route path="/alumni" element={<Alumni />} />
       </Routes>
     </>
   );

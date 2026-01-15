@@ -2,6 +2,7 @@
   "name": "edge-carolina",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://edgecarolina.com",
   "dependencies": {
     "@fullcalendar/bootstrap": "^6.1.17",
     "@fullcalendar/common": "^5.11.5",

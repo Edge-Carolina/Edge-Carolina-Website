@@ -62,6 +62,12 @@ const Navbar = () => {
               >
                 Upcoming Events
               </Link>
+              <Link
+                to="/alumni"
+                className="text-terqoizse px-1.5 sm:px-2 md:px-3 lg:px-4 py-1.5 sm:py-2 md:py-2.5 lg:py-3 rounded-md text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-medium transition-colors duration-300 hover:bg-terqoizse hover:text-lightnavy"
+              >
+                Alumni
+              </Link>
             </div>
           </div>
 
@@ -116,6 +122,12 @@ const Navbar = () => {
             className="text-terqoizse block px-2 sm:px-3 py-1.5 sm:py-2 rounded-md text-xs sm:text-sm md:text-base font-medium hover:bg-terqoizse hover:text-lightnavy"
           >
             Upcoming Events
+          </Link>
+          <Link
+            to="/alumni"
+            className="text-terqoizse block px-2 sm:px-3 py-1.5 sm:py-2 rounded-md text-xs sm:text-sm md:text-base font-medium hover:bg-terqoizse hover:text-lightnavy"
+          >
+            Alumni
           </Link>
         </div>
       </div>
