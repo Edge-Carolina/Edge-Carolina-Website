@@ -7,6 +7,7 @@ const COLORS = {
   weekly: '#211e5e',
   labs: '#8eb8d1',
   public: '#f59e42',
+  break: '#b69de8ff',
 };
 
 /**
@@ -23,10 +24,12 @@ const eventList: any[] = [
     // Note: Jan 28 is a Tuesday, so first Wednesday is Jan 29
     // Excluding March 18 (which is a Tuesday, so not in the list)
     // Last one is April 22 (Tuesday)
+
+    //EDGE LAB MEETINGS
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-01-29T18:00:00',
-    end: '2025-01-29T20:00:00',
+    start: '2026-03-04T18:00:00',
+    end: '2026-03-04T20:00:00',
     color: COLORS.labs,
     extendedProps: {
       location: 'Peabody 2080',
@@ -35,8 +38,8 @@ const eventList: any[] = [
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-02-05T18:00:00',
-    end: '2025-02-05T20:00:00',
+    start: '2026-03-11T18:00:00',
+    end: '2026-03-11T20:00:00',
     color: COLORS.labs,
     extendedProps: {
       location: 'Peabody 2080',
@@ -45,8 +48,8 @@ const eventList: any[] = [
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-02-12T18:00:00',
-    end: '2025-02-12T20:00:00',
+    start: '2026-03-25T18:00:00',
+    end: '2026-03-25T20:00:00',
     color: COLORS.labs,
     extendedProps: {
       location: 'Peabody 2080',
@@ -55,8 +58,8 @@ const eventList: any[] = [
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-02-19T18:00:00',
-    end: '2025-02-19T20:00:00',
+    start: '2026-04-01T18:00:00',
+    end: '2026-04-01T20:00:00',
     color: COLORS.labs,
     extendedProps: {
       location: 'Peabody 2080',
@@ -65,8 +68,8 @@ const eventList: any[] = [
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-02-26T18:00:00',
-    end: '2025-02-26T20:00:00',
+    start: '2026-04-08T18:00:00',
+    end: '2026-04-08T20:00:00',
     color: COLORS.labs,
     extendedProps: {
       location: 'Peabody 2080',
@@ -75,8 +78,8 @@ const eventList: any[] = [
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-03-05T18:00:00',
-    end: '2025-03-05T20:00:00',
+    start: '2026-04-15T18:00:00',
+    end: '2026-04-15T20:00:00',
     color: COLORS.labs,
     extendedProps: {
       location: 'Peabody 2080',
@@ -85,58 +88,8 @@ const eventList: any[] = [
   },
   {
     title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-03-12T18:00:00',
-    end: '2025-03-12T20:00:00',
-    color: COLORS.labs,
-    extendedProps: {
-      location: 'Peabody 2080',
-      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
-    }
-  },
-  {
-    title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-03-26T18:00:00',
-    end: '2025-03-26T20:00:00',
-    color: COLORS.labs,
-    extendedProps: {
-      location: 'Peabody 2080',
-      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
-    }
-  },
-  {
-    title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-04-02T18:00:00',
-    end: '2025-04-02T20:00:00',
-    color: COLORS.labs,
-    extendedProps: {
-      location: 'Peabody 2080',
-      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
-    }
-  },
-  {
-    title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-04-09T18:00:00',
-    end: '2025-04-09T20:00:00',
-    color: COLORS.labs,
-    extendedProps: {
-      location: 'Peabody 2080',
-      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
-    }
-  },
-  {
-    title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-04-16T18:00:00',
-    end: '2025-04-16T20:00:00',
-    color: COLORS.labs,
-    extendedProps: {
-      location: 'Peabody 2080',
-      description: 'Lightning talk (10–15m), then focused hands-on project work. Beginners welcome—scaffolding provided.'
-    }
-  },
-  {
-    title: 'Edge Labs — Talk + Build Sprint',
-    start: '2025-04-22T18:00:00',
-    end: '2025-04-22T20:00:00',
+    start: '2026-04-22T18:00:00',
+    end: '2026-04-22T20:00:00',
     color: COLORS.labs,
     extendedProps: {
       location: 'Peabody 2080',
@@ -144,6 +97,19 @@ const eventList: any[] = [
     }
   },
 
+    // ------------------- Year of 2026 --------------------
+// SPRING BREAK WEEK (2026)
+  {
+    title: 'Spring Break!',
+    start: '2026-03-13T23:59:00',
+    end: '2026-03-22T23:59:00',
+    color: COLORS.break,
+    extendedProps: {
+      description: 'Have an amazing break!!'
+    }
+  },
+
+  // ------------------- Year of 2025 --------------------
   // Edge Lab Applications Deadline
   {
     title: 'Edge Lab Applications Due',
@@ -157,7 +123,7 @@ const eventList: any[] = [
     }
   },
 
-  // One-off: Spicy 9 Fundraiser (Mar 31)
+  // One-off: Spicy 9 Fundraiser (Mar 31, 2025)
   {
     title: 'Spicy 9 Fundraiser Night',
     start: '2025-03-31T18:00:00',
@@ -169,7 +135,7 @@ const eventList: any[] = [
     }
   },
 
-  // One-off: End-of-Semester Showcase (Apr 22)
+  // One-off: End-of-Semester Showcase (Apr 22, 2025)
   {
     title: 'End-of-Semester Project Showcase',
     start: '2025-04-22T18:00:00',
@@ -180,8 +146,6 @@ const eventList: any[] = [
       description: 'Public demo night. Show what you shipped this semester. Invite friends, faculty, and recruiters.'
     }
   },
-
-
 ];
 
 const Events = () => {
@@ -212,12 +176,16 @@ const Events = () => {
               <span className="inline-block w-4 h-4 rounded" style={{ background: COLORS.public }}></span>
               <span className="text-black">Public Events</span>
             </div>
+            <div className="flex items-center gap-2 bg-terqoizse/10 rounded px-3 py-1 font-semibold">
+              <span className="inline-block w-4 h-4 rounded" style={{ background: COLORS.break }}></span>
+              <span className="text-black">Breaks</span>
+            </div>
           </div>
 
           <FullCalendar
             plugins={[dayGridPlugin]}
             initialView="dayGridMonth"
-            initialDate="2025-01-01"
+            initialDate="2026-03-01"
             events={eventList}
             eventClick={handleEventClick}
           />
