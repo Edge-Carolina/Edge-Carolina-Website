@@ -108,6 +108,18 @@ const eventList: any[] = [
       description: 'Have an amazing break!!'
     }
   },
+  
+  //Spicy 9 Fundraiser!!
+  {
+  title: 'Spicy 9 Fundraiser!',
+    start: '2026-04-20T08:00:00',
+    end: '2025-04-20T23:59:00',
+    color: COLORS.public,
+    extendedProps: {
+      location: 'Spicy 9 (Franklin St.)',
+      description: 'Come and enjoy Spicy 9 while supporting Edge Carolina!'
+    }
+  },
 
   // ------------------- Year of 2025 --------------------
   // Edge Lab Applications Deadline
