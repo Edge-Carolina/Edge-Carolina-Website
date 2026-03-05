@@ -27,7 +27,7 @@ const eventList: any[] = [
 
     //EDGE LAB MEETINGS
   {
-    title: 'Edge Labs — Talk + Build Sprint',
+    title: 'Edge Labs',
     start: '2026-03-04T18:00:00',
     end: '2026-03-04T20:00:00',
     color: COLORS.labs,
@@ -37,7 +37,7 @@ const eventList: any[] = [
     }
   },
   {
-    title: 'Edge Labs — Talk + Build Sprint',
+    title: 'Edge Labs',
     start: '2026-03-11T18:00:00',
     end: '2026-03-11T20:00:00',
     color: COLORS.labs,
@@ -47,7 +47,7 @@ const eventList: any[] = [
     }
   },
   {
-    title: 'Edge Labs — Talk + Build Sprint',
+    title: 'Edge Labs',
     start: '2026-03-25T18:00:00',
     end: '2026-03-25T20:00:00',
     color: COLORS.labs,
@@ -57,7 +57,7 @@ const eventList: any[] = [
     }
   },
   {
-    title: 'Edge Labs — Talk + Build Sprint',
+    title: 'Edge Labs',
     start: '2026-04-01T18:00:00',
     end: '2026-04-01T20:00:00',
     color: COLORS.labs,
@@ -67,7 +67,7 @@ const eventList: any[] = [
     }
   },
   {
-    title: 'Edge Labs — Talk + Build Sprint',
+    title: 'Edge Labs',
     start: '2026-04-08T18:00:00',
     end: '2026-04-08T20:00:00',
     color: COLORS.labs,
@@ -77,7 +77,7 @@ const eventList: any[] = [
     }
   },
   {
-    title: 'Edge Labs — Talk + Build Sprint',
+    title: 'Edge Labs',
     start: '2026-04-15T18:00:00',
     end: '2026-04-15T20:00:00',
     color: COLORS.labs,
@@ -87,7 +87,7 @@ const eventList: any[] = [
     }
   },
   {
-    title: 'Edge Labs — Talk + Build Sprint',
+    title: 'Edge Labs',
     start: '2026-04-22T18:00:00',
     end: '2026-04-22T20:00:00',
     color: COLORS.labs,
@@ -118,6 +118,17 @@ const eventList: any[] = [
     extendedProps: {
       location: 'Spicy 9 (Franklin St.)',
       description: 'Come and enjoy Spicy 9 while supporting Edge Carolina!'
+    }
+  },
+  //Cosmic Night
+  {
+  title: 'Cosmic Night Fundraiser',
+    start: '2026-03-11T18:00:00',
+    end: '2025-03-11T23:00:00',
+    color: COLORS.public,
+    extendedProps: {
+      location: 'Cosmic (Franklin St.)',
+      description: 'Head over to Cosmic and let them know you are with Edge Carolina for credit!'
     }
   },
 
@@ -225,6 +236,20 @@ const Events = () => {
               background: #8eb8d1 !important;
               color: #22335b !important;
             }
+              .fc-daygrid-event {
+                white-space: normal !important;
+              }
+              .fc-daygrid-day-events {
+                white-space: normal !important;
+              }
+              .fc-event-title {
+                white-space: normal !important;
+                overflow: visible !important;
+                text-overflow: unset !important;
+              }
+              .fc-event-main {
+                text-align: center !important
+                }
           `}</style>
 
           {/* Modal for event details */}
