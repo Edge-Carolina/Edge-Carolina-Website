@@ -123,8 +123,8 @@ const eventList: any[] = [
   //Cosmic Night
   {
   title: 'Cosmic Night Fundraiser',
-    start: '2026-03-25T18:00:00',
-    end: '2026-03-25T23:00:00',
+    start: '2026-04-01T18:00:00',
+    end: '2026-04-01T23:00:00',
     color: COLORS.public,
     extendedProps: {
       location: 'Cosmic (Franklin St.)',
