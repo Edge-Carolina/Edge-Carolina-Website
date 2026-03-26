@@ -121,16 +121,16 @@ const eventList: any[] = [
     }
   },
   //Cosmic Night
-  {
-  title: 'Cosmic Night Fundraiser',
-    start: '2026-04-01T18:00:00',
-    end: '2026-04-01T23:00:00',
-    color: COLORS.public,
-    extendedProps: {
-      location: 'Cosmic (Franklin St.)',
-      description: 'Head over to Cosmic and let them know you are with Edge Carolina for credit!'
-    }
-  },
+  // {
+  // title: 'Cosmic Night Fundraiser',
+  //   start: '2026-03-31T18:00:00',
+  //   end: '2026-03-31T23:00:00',
+  //   color: COLORS.public,
+  //   extendedProps: {
+  //     location: 'Cosmic (Franklin St.)',
+  //     description: 'Head over to Cosmic and let them know you are with Edge Carolina for credit!'
+  //   }
+  // },
 
   // ------------------- Year of 2025 --------------------
   // Edge Lab Applications Deadline
